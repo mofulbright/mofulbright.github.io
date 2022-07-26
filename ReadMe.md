@@ -1,18 +1,11 @@
-## Simple site: Easy websites with GitHub pages
+# Draco
+A free PSD & HTML resume template.
+See the demo [here](http://draco.afnizarnur.com/) and download the latest release [here](https://github.com/afnizarnur/draco/releases).
+![Draco](https://cloud.githubusercontent.com/assets/4648648/26038614/72fe3772-3936-11e7-8f88-3781aea67bdc.png)
 
-[Github Pages](https://pages.github.com) provide a simple way to make a
-website using Markdown and git.
+## License
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
 
-This is a minimal tutorial to get started.
+Draco is licensed under Creative Commons [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Which means that you are free to copy and redistribute the material in any medium or format and remix, transform, and build upon the material.
 
-View the thing [here](https://kbroman.org/simple_site).
-
----
-
-To the extent possible under law,
-[Karl Broman](https://github.com/kbroman)
-has waived all copyright and related or neighboring rights to
-&ldquo;[simple site](https://github.com/kbroman/simple_site)&rdquo;.
-This work is published from the United States.
-<br/>
-[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+This template is designed and developed by Afnizar Nur Ghifari.
