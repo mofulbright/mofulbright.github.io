@@ -1,2 +1,1 @@
-# H1
-Morgan Fulbright
+# Morgan Fulbright
