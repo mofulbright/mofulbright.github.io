@@ -34,9 +34,9 @@
     <nav>
       <h1>Morgan Fulbright</h1>
       <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
@@ -48,7 +48,7 @@
     <!-- Hero Section -->
     <section class="hero" id="about">
       <img
-        src="assets/images/wfh_1.svg"
+        src="assets/images/computerman.jpg"
         alt="jane-doe"
         loading="lazy"
         class="hero-img"
@@ -63,26 +63,57 @@
       </div>
     </section>
 
-    <!-- More about -->
-    <section class="more-about">
-      <h2>More About Me</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        nostrum dolor minus, libero delectus praesentium perferendis
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
-      </p>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/TacoParserPic.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">TacoParser</h3>
+          <p class="project-details">
+            C# application that parses a csv file containing
+            Taco Bell locations, then determines distances for stores: closest stores, furthest stores,
+            and shortest route to hit every store
+          </p>
+          <a href="https://docs.google.com/document/d/1Ub4ybN_ddR8CdcB2qW1F-MtGsCXK9pcKrM8NcdBox_4/edit?usp=sharing" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/TravelAppPic.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Travel App</h3>
+          <p class="project-details">
+            ASP.NET Core MVC application that uses a RESTful api to return information 
+            about every country. Includes CRUD functionality to allow users to 
+            add a country to a travel list
+          </p>
+          <a href="https://drive.google.com/drive/folders/1sJ2ihTJAGL4NcIeQ2Sm1zaJfvn8EA6xZ?usp=sharing" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/BestBuyPic.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">BestBuy MVC</h3>
+          <p class="project-details">
+            ASP.NET Core MVC app that uses a mock Best Buy database in MySQL.
+            Implements CRUD functionality for various tables, like the products, 
+            employees, and sales tables.
+          </p>
+          <a href="https://drive.google.com/drive/folders/1IBuhhS4G918kvjay3tVfthJIa00htbL2?usp=sharing" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
     </section>
 
-    <!-- Skills section -->
     <section class="skills" id="skills">
       <h2 class="skill-header">My Top Skills</h2>
 
@@ -130,58 +161,15 @@
         </div>
       </div>
     </section>
+    
+    <!-- More about -->
+    <!-- <section class="more-about">
+      <h2>More About Me</h2>
 
-    <!-- Projects section -->
-    <section class="projects" id="projects">
-      <h2 class="projects-title">Some of my Recent Projects</h2>
-      <div class="projects-container">
-        <div class="project-container project-card">
-          <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Expense Tracker</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Netflix Clone</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-        <div class="project-container project-card">
-          <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
-            loading="lazy"
-            class="project-pic"
-          />
-          <h3 class="project-title">Greeny Earth</h3>
-          <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
-          </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
-        </div>
-      </div>
-    </section>
+    </section> -->
+
+    <!-- Skills section -->
+    
 
     <!-- Contact section -->
     <section class="contact" id="contact">
@@ -272,13 +260,13 @@
 
     <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2021</p>
-      <p class="copy">
+      <p class="copy">&copy; Copyright 2022</p>
+      <!-- <p class="copy">
         Built with &#x2661; by
         <a href="https://twitter.com/koladechris" target="_blank"
           >Kolade Chris (Ksound)</a
         >
-      </p>
+      </p> -->
     </footer>
 
     <!-- Website scripts -->
